@@ -9,7 +9,7 @@ feature_names = data.drop(['HeatingEnergykwh', 'CoolingEnergy'], axis=1).columns
 
 # Load the model and scaler (ensure these files exist)
 model_RF = load('finalized_model_multivariate.sav')
-scaler = load('scaler_file.sav')  # If you saved the scaler earlier
+#scaler = load('scaler_file.sav')  # If you saved the scaler earlier
 
 # Initialize an empty list to store user inputs
 user_inputs = []
@@ -22,8 +22,10 @@ for feature in feature_names:
 
 
 user_inputs_df = pd.DataFrame([user_inputs], columns=feature_names)
-user_inputs_scaled = scaler.transform(user_inputs_df)
-predicted_output = model_RF.predict(user_inputs_scaled)
+user_inputs_array = user_inputs_df.values
+#user_inputs_scaled = scaler.transform(user_inputs_df)
+#predicted_output = model_RF.predict(user_inputs_scaled)
+predicted_output = model_RF.predict(user_inputs_array)
 
 # Display the output values
 print("Predicted Heating Energy (kWh):", predicted_output[0][0])

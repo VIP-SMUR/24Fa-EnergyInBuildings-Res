@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36a4ba86-3321-410c-8262-804ecfb59b55" name="Changes" comment="local">
-      <change afterPath="$PROJECT_DIR$/ResOverallData2_encoded.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finalized_model_multivariate.sav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/predictor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Encoders.py" beforeDir="false" afterPath="$PROJECT_DIR$/Encoders.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/predictor.py" beforeDir="false" afterPath="$PROJECT_DIR$/predictor.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +46,7 @@
     "Python.Encoders.executor": "Run",
     "Python.main.executor": "Run",
     "Python.predictor.executor": "Run",
+    "Python.temp.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "node.js.detected.package.eslint": "true",
@@ -66,6 +65,36 @@
       <recent name="C:\Users\elite\OneDrive\Documents\GitHub\24Fa-EnergyInBuildings-Res\.venv\MultivarRes" />
       <recent name="C:\Users\elite\OneDrive\Documents\GitHub\24Fa-EnergyInBuildings-Res\MultivarRes" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="temp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="24Fa-EnergyInBuildings-Res" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/temp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.temp" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -88,7 +117,7 @@
       <workItem from="1729485177588" duration="32000" />
       <workItem from="1729485362858" duration="338000" />
       <workItem from="1729486066336" duration="1556000" />
-      <workItem from="1729489471715" duration="2598000" />
+      <workItem from="1729489471715" duration="4885000" />
     </task>
     <task id="LOCAL-00001" summary="local">
       <option name="closed" value="true" />
@@ -121,7 +150,8 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/24Fa_EnergyInBuildings_Res$main.coverage" NAME="main Coverage Results" MODIFIED="1729508525321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/24Fa_EnergyInBuildings_Res$predictor.coverage" NAME="predictor Coverage Results" MODIFIED="1729509593048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/24Fa_EnergyInBuildings_Res$Encoders.coverage" NAME="Encoders Coverage Results" MODIFIED="1729508214606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/24Fa_EnergyInBuildings_Res$predictor.coverage" NAME="predictor Coverage Results" MODIFIED="1729510889839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/24Fa_EnergyInBuildings_Res$temp.coverage" NAME="temp Coverage Results" MODIFIED="1729511801755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/24Fa_EnergyInBuildings_Res$Encoders.coverage" NAME="Encoders Coverage Results" MODIFIED="1729509883282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

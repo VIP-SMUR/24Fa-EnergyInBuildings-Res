@@ -263,3 +263,9 @@ with open('scaler_file.sav', 'wb') as scaler_file:
 filename = 'finalized_model_multivariate.sav'
 dump(model_RF, open(filename, 'wb'))
 
+"""
+if __name__ == "__main__":
+    # Adjust these based on your dataset
+    dataset_path = 'ResOverallData2_encoded.csv'
+    output_columns = ['HeatingEnergykwh', 'CoolingEnergy']  # Adjust output columns as needed
+"""
