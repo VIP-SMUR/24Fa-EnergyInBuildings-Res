@@ -162,7 +162,7 @@ models.append(('SVR', MultiOutputRegressor(SVR(gamma='auto'))))
 # create keras Sequential model
 def baseline_model():
     model = Sequential()
-    model.add(Dense(300, input_shape = (9, ), activation = 'relu'))
+    model.add(Dense(300, input_shape = (8, ), activation = 'relu'))
     model.add(BatchNormalization())
     model.add(Dropout(0.4))
     model.add(Dense(200, activation = 'relu'))
@@ -258,6 +258,8 @@ plt.show()
 
 # b) Save model for later use
 # save the model to disk
+with open('scaler_file.sav', 'wb') as scaler_file:
+    dump(scaler, scaler_file)
 filename = 'finalized_model_multivariate.sav'
 dump(model_RF, open(filename, 'wb'))
 
